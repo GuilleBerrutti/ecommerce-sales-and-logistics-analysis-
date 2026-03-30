@@ -3,18 +3,6 @@
 ## 📊 Visualización de Dashboards (Power BI)
 En esta sección se presentan los tableros interactivos diseñados para la toma de decisiones estratégicas.
 
-<details>
-  <summary>📈 Ver Dashboards de Power BI</summary>
-  <br>
-
-  ### Análisis de Ventas y Categorías
-  ![Dashboard de Ventas](img/Ventas_por_categoria.png)
-
-  ### Detalle de Inventario y Operaciones
-  ![Detalle de Power BI](img/Dias_promedio_del_envio.png)
-
-</details>
-
 ---
 # Análisis Estratégico de Datos: Northwind E-commerce
 
@@ -34,10 +22,10 @@ Este proyecto nace para responder interrogantes clave de la gerencia mediante el
   <br>
 
   ### Análisis de Ventas y Categorías
-  ![Dashboard de Ventas](img/analisis.png)
+  ![Dashboard de Ventas](img/Ventas_por_categoria.png)
 
   ### Detalle de Inventario y Operaciones
-  ![Detalle de Power BI](img/detalle.png)
+  ![Detalle de Power BI](img/Dias_promedio_del_envio.png)
 
 </details>
 
