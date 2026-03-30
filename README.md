@@ -33,12 +33,12 @@ Este proyecto nace para responder interrogantes clave de la gerencia mediante el
 *Evidencia técnica de la extracción y transformación de datos en PostgreSQL.*
 
 <details>
-  <summary>📑 Ver: Resultados de Consultas SQL (4 capturas)</summary>
+  <summary>📑 Ver: Resultados de Consultas SQL </summary>
   <br>
 
   ### 1. Análisis de Rentabilidad y Márgenes
   Resultado del cálculo de beneficios por producto y categoría:
-  ![Análisis de Rentabilidad](Results/análisis.png)
+  ![Análisis de Rentabilidad](Results/analisis.png)
 
   ### 2. Segmentación y Cartera de Clientes
   Evidencia de la consulta para identificar comportamiento de compra:
