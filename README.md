@@ -33,6 +33,33 @@ El proyecto incluye scripts para:
 2.  **Segmentación de Clientes:** Identificación de clientes inactivos (Churn Analysis).
 3.  **Lógica de Semáforo:** Sistema de alertas para stock crítico.
 
+## 💾 Evidencia de Consultas SQL (Resultados)
+
+<details>
+  <summary>📈 Ver: Análisis de Rentabilidad por Producto</summary>
+  <br>
+  Esta consulta calcula el margen bruto y detecta los productos con mayor retorno.
+  
+  ![Resultado Rentabilidad](Results/rentabilidad_sql.png)
+</details>
+
+<details>
+  <summary>🚦 Ver: Control de Stock (Lógica de Semáforo)</summary>
+  <br>
+  Resultado de la consulta que categoriza el inventario en Crítico, Medio y Óptimo.
+  
+  ![Resultado Stock](Results/stock_control.png)
+</details>
+
+<details>
+  <summary>👥 Ver: Segmentación de Clientes (Churn Analysis)</summary>
+  <br>
+  Listado de clientes detectados como "Inactivos" para campañas de re-marketing.
+  
+  ![Resultado Churn](Results/churn_results.png)
+</details>
+
+
 ## 📂 Estructura del Repositorio
 * `/Scripts`: Consultas SQL organizadas por módulo.
 * `/Results`: Documentación detallada de conclusiones.
