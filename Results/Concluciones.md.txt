@@ -1,0 +1,33 @@
+# 🧠 Conclusiones del Análisis y Hallazgos de Negocio
+
+Este documento resume los hallazgos clave derivados del procesamiento de datos de Northwind Traders, integrando la validación técnica en SQL con la visualización estratégica en Power BI.
+
+---
+
+## 1. Análisis de Rentabilidad y Ventas
+* **Dominio de Categoría:** La categoría **Beverages** genera el **21% del total de ingresos** ($268k de $1.27M). Esto sugiere que la empresa depende fuertemente de este sector, por lo que cualquier ruptura en su cadena de suministro sería crítica.
+* **Oportunidad de Crecimiento:** Categorías como *Grains/Cereals* muestran los ingresos más bajos ($96k). Se recomienda una revisión de precios o una campaña de marketing específica para equilibrar el mix de ventas.
+* **Patrón Temporal:** Existe un crecimiento sostenido desde 1996 hasta mayo de 1997, seguido de una volatilidad que requiere mayor investigación (posible estacionalidad de productos frescos o cambios en contratos de distribución).
+
+---
+
+## 2. Eficiencia Operativa (Logística)
+* **Brecha de Rendimiento:** Existe una diferencia de **casi el 100%** en tiempos de envío entre los países más eficientes (Finlandia: 5.6 días) y los menos eficientes (Irlanda: 11 días).
+* **Impacto en la Experiencia del Cliente (CX):** Los mercados de Irlanda, Suecia y Suiza presentan promedios superiores a los 10 días. 
+    * *Acción propuesta:* Auditar los transportistas utilizados en estas rutas o revisar los procesos de aduana para reducir la fricción.
+
+---
+
+## 3. Calidad de Datos y Auditoría (SQL)
+* **Integridad de la Base:** Mediante el uso de `LEFT JOIN`, se detectaron clientes que no han realizado pedidos. Esto representa una base de datos de "leads fríos" que el equipo de ventas podría reactivar mediante campañas de fidelización.
+* **Productos Huérfanos:** La auditoría de valores nulos permitió identificar productos sin proveedores asignados, mitigando el riesgo de falta de stock por falta de gestión de compras.
+
+---
+
+## 🛠️ Notas Técnicas del Analista
+* **SQL:** Se aplicó tipado explícito en PostgreSQL (`::numeric`) para garantizar la precisión en cálculos de rentabilidad y evitar errores de redondeo.
+* **Power BI:** Se habilitó la jerarquía de fechas para permitir un *Drill-down* desde Año hasta Mes, facilitando la detección de tendencias estacionales.
+* **UI/UX:** El diseño en *Dark Mode* fue elegido para resaltar los KPIs y reducir la fatiga visual en presentaciones ejecutivas.
+
+---
+**Guillermo** *Analista de Datos en Formación* *Marzo 2026*
