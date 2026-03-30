@@ -11,7 +11,7 @@ En esta sección se presentan los tableros interactivos diseñados para la toma 
   ![Dashboard de Ventas](img/Ventas_por_categoria.png)
 
   ### Detalle de Inventario y Operaciones
-  ![Detalle de Power BI](img/detalle.png)
+  ![Detalle de Power BI](img/Dias_promedio_del_envio.png)
 
 </details>
 
