@@ -29,7 +29,8 @@ Se utilizó **Scikit-learn** para entrenar un modelo que interpreta la tendencia
 
 ### 2. Análisis de Estacionalidad (Python & Seaborn)
 Mapa de calor generado para detectar patrones de compra por día de la semana y mes del año, permitiendo identificar momentos de saturación y oportunidad.
-![Heatmap de Estacionalidad](img/output.png)
+
+![Heatmap de Estacionalidad](img/mapa-de-calor.png)
 
 ### 3. Dashboard Operativo (Power BI)
 Visualización de KPIs críticos como el rendimiento logístico por país y la distribución de ingresos por categoría de producto.
