@@ -24,6 +24,7 @@ A continuación, se presentan las pruebas técnicas que respaldan las conclusion
 
 ### 1. Analítica Predictiva (Python & Machine Learning)
 Se utilizó **Scikit-learn** para entrenar un modelo que interpreta la tendencia histórica y proyecta el comportamiento futuro.
+
 ![Predicción de Ventas](img/regresión-lineal.png)
 
 ### 2. Análisis de Estacionalidad (Python & Seaborn)
