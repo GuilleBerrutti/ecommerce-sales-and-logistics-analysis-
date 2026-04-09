@@ -2,6 +2,12 @@
 
 **EL RESULTADO (BLUF):** Este proyecto integra SQL, Python y Power BI para transformar datos transaccionales en inteligencia de negocios, logrando identificar patrones de consumo mediante mapas de calor y proyectar tendencias de ventas con modelos de regresión lineal.
 
+* **Predicción de Tendencias:** El modelo de regresión permite estimar ingresos futuros basados en el histórico, mejorando la planificación financiera.
+
+* **Optimización Logística:** El análisis de días por entrega permite identificar regiones o transportistas que requieren ajustes operativos.
+
+* **Segmentación de Cartera:** Visualización clara de los productos y categorías que generan el mayor ticket promedio.
+
 ---
 
 ## 🔬 Analítica Avanzada con Python (Impacto Estratégico)
@@ -60,14 +66,3 @@ He desarrollado una arquitectura de consultas para extraer la lógica de negocio
 * [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql): Gestión de inventario y análisis de la cadena de suministro.
 * [💸 Detalle de Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql): Cálculo de ingresos netos aplicando lógica de descuentos comerciales.
 * [🐍 Vistas para Integración con Python](./sql/04_vistas_para_python.sql): Estructuración de datos optimizada para el modelado estadístico y predictivo.
-
----
-
-## 📈 Impacto y Hallazgos Estratégicos
-
-* **Predicción de Tendencias:** El modelo de regresión permite estimar ingresos futuros basados en el histórico, mejorando la planificación financiera.
-* **Optimización Logística:** El análisis de días por entrega permite identificar regiones o transportistas que requieren ajustes operativos.
-* **Segmentación de Cartera:** Visualización clara de los productos y categorías que generan el mayor ticket promedio.
-
----
-
