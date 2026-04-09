@@ -16,6 +16,7 @@
 
     * *Impacto:* Estos hallazgos permiten una planificación logística diferenciada (ajuste de personal y stock) según la estacionalidad mensual, optimizando los costos operativos durante los valles de demanda.
 
+
     ![Mapa de Calor de Ventas](img/mapa-de-calor.png)
 
 ---
