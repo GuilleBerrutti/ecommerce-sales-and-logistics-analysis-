@@ -28,7 +28,7 @@ Para la toma de decisiones ejecutivas, consolidé los datos en un dashboard inte
 * **Visualización de Ventas por Categoría:** * *Hallazgo:* Se identificó que el 70% de la facturación se concentra en 3 categorías clave, permitiendo priorizar el stock y los esfuerzos de marketing en los productos de mayor rotación.
 * **KPI Logístico (Días por Entrega):** * *Hallazgo:* El monitoreo en tiempo real del promedio de días por entrega permite detectar demoras logísticas por transportista o región antes de que afecten la satisfacción del cliente.
 
-![Dashboard de Power BI - Vista General](tu_imagen_dashboard_general.png)
+![Dashboard de Power BI - Vista General](img/Dias_promedio_del_envio.png)
 ![Análisis de Ventas por Categoría](tu_imagen_ventas_categoria.png)
 
 ---
