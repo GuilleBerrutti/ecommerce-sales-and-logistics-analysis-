@@ -14,7 +14,7 @@
 * **Mapa de Calor (Heatmap): Densidad y Patrones de Pedidos**
     * *¿Qué nos dice?* Visualización clara de la concentración de pedidos por día y hora. Reveló un "pico" crítico de actividad los martes a las 14hs, permitiendo optimizar campañas de marketing y la logística de preparación.
 
-    ![Mapa de Calor de Ventas](ruta/a/tu/imagen_heatmap.png)
+    ![Mapa de Calor de Ventas](img/mapa-de-calor.png)
 
 ---
 
