@@ -31,6 +31,15 @@
 
 ---
 
+### 📂 Consultas SQL Destacadas
+He desarrollado una estructura de consultas en PostgreSQL para extraer la lógica de negocio:
+* [Análisis de Ventas por Categoría](./sql/1_ventas_totales_por_categoria.sql)
+* [Identificación de Productos Estrella](./sql/2_productos_mas_vendidos.sql)
+* [Segmentación de Clientes VIP](./sql/3_clientes_vip.sql)
+* [KPI Logístico: Tiempos de Entrega](./sql/4_promedio_dias_entrega.sql)
+
+---
+
 ## 📈 Impacto y Hallazgos Estratégicos
 
 * **Predicción de Tendencias:** El modelo de regresión permite estimar ingresos futuros basados en el histórico, mejorando la planificación financiera.
