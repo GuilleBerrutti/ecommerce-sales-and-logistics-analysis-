@@ -31,12 +31,13 @@
 
 ---
 
-### 📂 Consultas SQL Destacadas
-He desarrollado una estructura de consultas en PostgreSQL para extraer la lógica de negocio:
-* [Análisis de Ventas por Categoría](./sql/1_ventas_totales_por_categoria.sql)
-* [Identificación de Productos Estrella](./sql/2_productos_mas_vendidos.sql)
-* [Segmentación de Clientes VIP](./sql/3_clientes_vip.sql)
-* [KPI Logístico: Tiempos de Entrega](./sql/4_promedio_dias_entrega.sql)
+### 📂 Estructura de Consultas SQL (PostgreSQL)
+He desarrollado una arquitectura de consultas para extraer la lógica de negocio necesaria para el análisis:
+
+* [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql): Análisis de expansión geográfica y volumen de pedidos por mercado.
+* [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql): Gestión de inventario y análisis de la cadena de suministro.
+* [💸 Detalle de Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql): Cálculo de ingresos netos aplicando lógica de descuentos comerciales.
+* [🐍 Vistas para Integración con Python](./sql/04_vistas_para_python.sql): Estructuración de datos optimizada para el modelado estadístico y predictivo.
 
 ---
 
