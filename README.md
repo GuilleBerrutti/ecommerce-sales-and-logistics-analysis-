@@ -26,11 +26,8 @@ Las empresas de e-commerce enfrentan múltiples desafíos:
 
 ## 📊 Dashboard Interactivo
 
-📁 **Archivo Power BI:**  
-`/Dashboard/ecommerce-northwind.pbix`
-
-🔗 **Acceso online:**  
-_Agregar link si publicas en Power BI Service_
+🔗 **Archivo Power BI:**  
+* 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/collections-strategy-analytics/tree/main/collections-strategy-analytics/data)*
 
 <details>
   <summary><b>Ver Dashboard</b></summary>
