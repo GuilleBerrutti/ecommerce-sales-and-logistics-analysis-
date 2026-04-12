@@ -25,7 +25,6 @@ Las empresas de e-commerce enfrentan múltiples desafíos:
 ---
 
 ## 📊 Dashboard Interactivo
-
 🔗 **Archivo Power BI:**  
 * 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/collections-strategy-analytics/tree/main/collections-strategy-analytics/data)*
 
