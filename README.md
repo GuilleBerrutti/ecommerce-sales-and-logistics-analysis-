@@ -1,68 +1,131 @@
-# 🛒 Análisis Estratégico de E-commerce: Caso Northwind
-
-**EL RESULTADO (BLUF):** Este proyecto integra SQL, Python y Power BI para transformar datos transaccionales en inteligencia de negocios, logrando identificar patrones de consumo mediante mapas de calor y proyectar tendencias de ventas con modelos de regresión lineal.
-
-* **Predicción de Tendencias:** El modelo de regresión permite estimar ingresos futuros basados en el histórico, mejorando la planificación financiera.
-
-* **Optimización Logística:** El análisis de días por entrega permite identificar regiones o transportistas que requieren ajustes operativos.
-
-* **Segmentación de Cartera:** Visualización clara de los productos y categorías que generan el mayor ticket promedio.
+# 🛒 Análisis Estratégico de E-commerce (Northwind)
 
 ---
 
-## 🔬 Analítica Avanzada con Python (Impacto Estratégico)
+## 🎯 Objetivo del Proyecto
 
-* **Regresión Lineal: Proyección de Crecimiento de Ventas**
-    * *¿Qué nos dice?* El modelo estadístico nos permite proyectar la tendencia de ingresos mensuales con un 85% de precisión, facilitando la planificación financiera y la detección de desvíos estacionales.
+Analizar el comportamiento de ventas y operaciones logísticas en un entorno de e-commerce para **identificar patrones de consumo, optimizar la distribución y proyectar ingresos futuros**.
 
-    ![Regresión Lineal de Ventas](img/regresión-lineal.png)
-
-* **Mapa de Calor (Heatmap): Estacionalidad y Densidad de Pedidos**
-    * *¿Qué nos dice?* Este análisis reveló patrones críticos de demanda temporal. Se identificó que los **picos máximos de actividad ocurren los viernes del mes de abril**, mientras que los **niveles de demanda más bajos se concentran los miércoles de junio**.
-
-    * *Impacto:* Estos hallazgos permiten una planificación logística diferenciada (ajuste de personal y stock) según la estacionalidad mensual, optimizando los costos operativos durante los valles de demanda.
-
-    ![Mapa de Calor de Ventas](img/mapa-de-calor.png)
+Este proyecto integra SQL, Python y Power BI para transformar datos transaccionales en decisiones de negocio.
 
 ---
 
-## 📊 Business Intelligence & Reporting (Power BI)
+## 🧠 Problema de Negocio
 
-### Hallazgos por Categoría y Logística
-  * **Ventas por Categoría:** Se identificó que el 70% de la facturación se concentra en 3 categorías clave. Este insight permite priorizar el stock y los esfuerzos de marketing.
-  
-  * **KPI Logístico:** El promedio de días por entrega permite detectar cuellos de botella por región o transportista.
+Las empresas de e-commerce enfrentan múltiples desafíos:
 
+- Falta de visibilidad sobre patrones de demanda  
+- Dificultad para anticipar ventas futuras  
+- Ineficiencias en tiempos de entrega y logística  
+
+👉 Pregunta clave del análisis:
+
+**¿Cómo optimizar la estrategia comercial y logística a partir del análisis de datos históricos de ventas?**
+
+---
+
+## 📊 Dashboard Interactivo
+
+📁 **Archivo Power BI:**  
+`/Dashboard/ecommerce-northwind.pbix`
+
+🔗 **Acceso online:**  
+_Agregar link si publicas en Power BI Service_
 
 <details>
-  <summary><b>Pulsá aquí para ver el Dashboard</b></summary>
+  <summary><b>Ver Dashboard</b></summary>
 
-  ### Dashboard Ejecutivo
-  Este tablero consolida la operativa de Northwind, permitiendo una navegación fluida entre categorías y tiempos logísticos.
-  
-   ![Análisis de Ventas por Categoría](img/Ventas_por_categoria.png)
+  ![Ventas por Categoría](img/Ventas_por_categoria.png)
 
-   ![Dashboard General](img/Dias_promedio_del_envio.png)
+  ![Días promedio de envío](img/Dias_promedio_del_envio.png)
 
 </details>
 
 ---
 
+## 📊 Metodología
 
-## 🛠️ Solución Técnica (The Stack)
+El análisis se desarrolló en tres etapas:
 
-* **Extracción y Lógica de Negocio:** **PostgreSQL**. Creación de queries complejas para consolidar ventas, productos y logística.
-    * 👉 *[Ver scripts de SQL aquí](sql)*
-* **Analítica Avanzada (Python):** * *Librerías:* `Seaborn`, `Matplotlib`, `Sklearn`.
-* **Visualización de Decisiones (Power BI):** * *KPI Logístico:* Cálculo del promedio de días por entrega.
-    * *Segmentación:* Análisis dinámico del rendimiento por categoría.
+### 1. Extracción y Modelado (SQL - PostgreSQL)
+- Consolidación de datos de ventas, productos y envíos  
+- Cálculo de métricas comerciales y logísticas  
+- Creación de vistas optimizadas para análisis  
+
+### 2. Análisis Avanzado (Python)
+- Modelado de tendencias mediante regresión lineal  
+- Identificación de patrones temporales con mapas de calor  
+
+### 3. Visualización (Power BI)
+- Construcción de dashboard interactivo  
+- Seguimiento de KPIs comerciales y logísticos  
 
 ---
 
-### 📂 Estructura de Consultas SQL (PostgreSQL)
-He desarrollado una arquitectura de consultas para extraer la lógica de negocio necesaria para el análisis:
+## 💡 Insights Clave
 
-* [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql): Análisis de expansión geográfica y volumen de pedidos por mercado.
-* [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql): Gestión de inventario y análisis de la cadena de suministro.
-* [💸 Detalle de Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql): Cálculo de ingresos netos aplicando lógica de descuentos comerciales.
-* [🐍 Vistas para Integración con Python](./sql/04_vistas_para_python.sql): Estructuración de datos optimizada para el modelado estadístico y predictivo.
+- **Concentración de ingresos:**  
+  El 70% de la facturación se concentra en 3 categorías principales.
+
+- **Estacionalidad de la demanda:**  
+  Se detectaron picos de ventas en períodos específicos, lo que permite planificar stock y recursos.
+
+- **Optimización logística:**  
+  Variaciones en tiempos de entrega según región y transportista, identificando oportunidades de mejora.
+
+- **Proyección de ventas:**  
+  El modelo de regresión permite estimar ingresos futuros y anticipar tendencias.
+
+---
+
+## 🔬 Análisis Avanzado con Python
+
+### 📈 Regresión Lineal (Proyección de Ventas)
+
+Permite estimar la evolución de ingresos a partir del histórico de ventas, facilitando la planificación financiera.
+
+![Regresión Lineal de Ventas](img/regresión-lineal.png)
+
+---
+
+### 🔥 Mapa de Calor (Estacionalidad de Pedidos)
+
+Identificación de patrones de demanda por día y mes:
+
+- Mayor actividad: viernes de abril  
+- Menor actividad: miércoles de junio  
+
+👉 Esto permite ajustar operaciones según picos y valles de demanda.
+
+![Mapa de Calor](img/mapa-de-calor.png)
+
+---
+
+## 📈 Conclusión
+
+El análisis demuestra que la integración de datos comerciales y logísticos permite optimizar tanto la estrategia de ventas como la operación.
+
+👉 Recomendaciones:
+- Priorizar categorías con mayor impacto en ingresos  
+- Ajustar logística según patrones regionales  
+- Planificar stock en función de la estacionalidad  
+- Utilizar modelos predictivos para anticipar demanda  
+
+---
+
+## 🛠️ Stack Tecnológico
+
+- **PostgreSQL** → Extracción y modelado de datos  
+- **Python (Pandas, Matplotlib, Seaborn, Scikit-learn)** → Análisis y modelado  
+- **Power BI** → Visualización y dashboards  
+
+---
+
+## 📂 Estructura del Proyecto
+
+### SQL (Lógica de Negocio)
+
+- [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql)  
+- [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql)  
+- [💸 Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql)  
+- [🐍 Vistas para Python](./sql/04_vistas_para_python.sql)  
