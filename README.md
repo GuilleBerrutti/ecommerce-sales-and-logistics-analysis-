@@ -30,7 +30,7 @@ Las empresas de e-commerce deben escalar ventas sin degradar la operación logí
 - Optimizar la logística en mercados con mayores tiempos de envío.  
 
 **Impacto esperado**
-- ↑ Ingresos al focalizar en drivers de revenue  
+- ↑ Ingresos al focalizar en categorías líderes  
 - ↓ Tiempos de entrega y mejora de la experiencia del cliente  
 - ↑ Eficiencia operativa y toma de decisiones basada en datos  
 
