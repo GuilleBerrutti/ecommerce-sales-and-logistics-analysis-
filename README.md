@@ -18,21 +18,20 @@ Las empresas de e-commerce enfrentan múltiples desafíos:
 - Dificultad para anticipar ventas futuras  
 - Ineficiencias en tiempos de entrega y logística  
 
-👉 Pregunta clave del análisis:
+👉 **Pregunta clave del análisis:**
 
 **¿Cómo optimizar la estrategia comercial y logística a partir del análisis de datos históricos de ventas?**
 
 ---
 
 ## 📊 Dashboard Interactivo
-🔗 **Archivo Power BI:**  
-* 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/tree/main/dashboard)*
+
+🔗 **Archivo Power BI:** 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/tree/main/dashboard)*
 
 <details>
-  <summary><b>Ver Dashboard</b></summary>
+  <summary><b>Ver Dashboard (Previsualización)</b></summary>
 
   ![Ventas por Categoría](img/Ventas_por_categoria.png)
-
   ![Días promedio de envío](img/Dias_promedio_del_envio.png)
 
 </details>
@@ -58,26 +57,25 @@ El análisis se desarrolló en tres etapas:
 
 ---
 
-## 💡 Insights Clave
+## 💡 Key Insights (Strategic Impact)
 
-- **Concentración de ingresos:**  
-  El 70% de la facturación se concentra en 3 categorías principales.
+- **Optimización del Inventario (Estacionalidad):** Detectamos una alta volatilidad semanal, con picos críticos los **viernes de abril** y valles los **miércoles de junio**.
+  - 🚀 *Acción propuesta:* Ajustar el *stock safety level* los jueves para evitar quiebres durante el viernes y lanzar campañas de *Flash Sales* los miércoles para maximizar la capacidad operativa.
 
-- **Estacionalidad de la demanda:**  
-  Se detectaron picos de ventas en períodos específicos, lo que permite planificar stock y recursos.
+- **Foco en el Margen (Análisis de Pareto):** El 70% de la facturación se concentra en 3 categorías principales.
+  - 🚀 *Acción propuesta:* Priorizar la inversión en publicidad y esfuerzo de venta hacia estas categorías "core", evaluando la rentabilidad de la "larga cola" de productos.
 
-- **Optimización logística:**  
-  Variaciones en tiempos de entrega según región y transportista, identificando oportunidades de mejora.
+- **Eficiencia Logística:** Se identificaron variaciones significativas en los tiempos de entrega por región.
+  - 🚀 *Acción propuesta:* Renegociar SLAs (*Service Level Agreements*) con transportistas en zonas con retrasos recurrentes para mejorar el NPS (*Net Profit Score*) y la satisfacción del cliente.
 
-- **Proyección de ventas:**  
-  El modelo de regresión permite estimar ingresos futuros y anticipar tendencias.
+- **Proyección de Ventas:** El modelo de regresión permite anticipar ingresos y planificar el flujo de caja.
+  - 🚀 *Acción propuesta:* Integrar este modelo en la planificación financiera mensual para alinear compras y presupuesto.
 
 ---
 
 ## 🔬 Análisis Avanzado con Python
 
 ### 📈 Regresión Lineal (Proyección de Ventas)
-
 Permite estimar la evolución de ingresos a partir del histórico de ventas, facilitando la planificación financiera.
 
 ![Regresión Lineal de Ventas](img/regresión-lineal.png)
@@ -85,11 +83,10 @@ Permite estimar la evolución de ingresos a partir del histórico de ventas, fac
 ---
 
 ### 🔥 Mapa de Calor (Estacionalidad de Pedidos)
-
 Identificación de patrones de demanda por día y mes:
 
-- Mayor actividad: viernes de abril  
-- Menor actividad: miércoles de junio  
+- **Mayor actividad:** viernes de abril  
+- **Menor actividad:** miércoles de junio  
 
 👉 Esto permite ajustar operaciones según picos y valles de demanda.
 
@@ -99,13 +96,7 @@ Identificación de patrones de demanda por día y mes:
 
 ## 📈 Conclusión
 
-El análisis demuestra que la integración de datos comerciales y logísticos permite optimizar tanto la estrategia de ventas como la operación.
-
-👉 Recomendaciones:
-- Priorizar categorías con mayor impacto en ingresos  
-- Ajustar logística según patrones regionales  
-- Planificar stock en función de la estacionalidad  
-- Utilizar modelos predictivos para anticipar demanda  
+El análisis demuestra que la integración de datos comerciales y logísticos permite optimizar tanto la estrategia de ventas como la operación. La clave del éxito radica en convertir los datos históricos en **predicciones accionables**.
 
 ---
 
@@ -120,8 +111,7 @@ El análisis demuestra que la integración de datos comerciales y logísticos pe
 ## 📂 Estructura del Proyecto
 
 ### SQL (Lógica de Negocio)
-
 - [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql)  
 - [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql)  
 - [💸 Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql)  
-- [🐍 Vistas para Python](./sql/04_vistas_para_python.sql)  
+- [🐍 Vistas para Python](./sql/04_vistas_para_python.sql)
