@@ -142,3 +142,9 @@ La implementación de estas recomendaciones permitiría:
 ---
 
 ## 📁 Estructura del Proyecto
+
+### SQL (Lógica de Negocio)
+- [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql)  
+- [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql)  
+- [💸 Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql)  
+- [🐍 Vistas para Python](./sql/04_vistas_para_python.sql)
