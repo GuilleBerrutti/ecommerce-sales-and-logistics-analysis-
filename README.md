@@ -17,7 +17,7 @@ Las empresas de e-commerce deben escalar ventas sin degradar la operación logí
 
 ---
 
-## ⚡ Strategic Impact (Executive Summary)
+## ⚡ Resumen ejecutivo
 
 **Hallazgos clave**
 - Un conjunto reducido de categorías concentra la mayor parte de los ingresos (efecto Pareto).  
