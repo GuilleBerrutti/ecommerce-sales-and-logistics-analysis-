@@ -91,7 +91,7 @@ Mejora del ROI de marketing y aumento de conversión.
 
 ### 🚚 Tiempos de envío por país
 
-![Días Promedio de Envío](images/dias_envio_pais.png)
+![Días Promedio de Envío](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png)
 
 **Insight**  
 Diferencias relevantes en tiempos de entrega entre países.
