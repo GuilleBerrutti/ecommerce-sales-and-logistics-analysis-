@@ -2,7 +2,7 @@
 
 ### 🛒 Ventas por Categoría (Drivers de Revenue)
 
-![Ventas por Categoría](img/ventas_categoria.png)
+![Ventas por Categoría](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png)
 
 **Insight:**  
 Un número reducido de categorías concentra la mayor parte de los ingresos totales.
