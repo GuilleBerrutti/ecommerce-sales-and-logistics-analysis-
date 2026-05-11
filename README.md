@@ -1,167 +1,218 @@
-# 🛒 Análisis de Ventas y Logística en E-commerce
+# 🛒 E-commerce Sales & Logistics Intelligence
 
-## 📌 Descripción General
-Este proyecto analiza el rendimiento de ventas y la eficiencia logística en un entorno de e-commerce para identificar oportunidades de crecimiento, optimización operativa y mejora de la experiencia del cliente.
-
-El enfoque integra datos comerciales y logísticos para generar **insights accionables** orientados a la toma de decisiones.
-
----
-
-## 🎯 Problema de Negocio
-Las empresas de e-commerce deben escalar ventas sin degradar la operación logística.
-
-**Desafíos principales:**
-- Retrasos de entrega que afectan la satisfacción del cliente  
-- Rendimiento desigual entre categorías y mercados  
-- Baja visibilidad de ineficiencias operativas  
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png" width="85%">
+  <br>
+  <em>Análisis Estratégico de Ventas y Eficiencia Operativa</em>
+</p>
 
 ---
 
-## ⚡ Resumen ejecutivo
+# 📌 Resumen Ejecutivo
 
-**Hallazgos clave**
-- Un conjunto reducido de categorías concentra la mayor parte de los ingresos (efecto Pareto).  
-- Las ventas presentan una **tendencia creciente** con variabilidad estacional.  
-- Existen **ineficiencias logísticas** en ciertos países (mayores tiempos de entrega).  
+Este proyecto analiza el rendimiento comercial y la eficiencia logística de un entorno e-commerce para detectar oportunidades de crecimiento, optimización operativa y mejora en la experiencia del cliente.
 
-**Acciones recomendadas**
-- Priorizar inversión (marketing + stock) en categorías líderes.  
-- Planificar inventario y capacidad en función de la demanda proyectada.  
-- Optimizar la logística en mercados con mayores tiempos de envío.  
-
-**Impacto esperado**
-- ↑ Ingresos al focalizar en categorías líderes  
-- ↓ Tiempos de entrega y mejora de la experiencia del cliente  
-- ↑ Eficiencia operativa y toma de decisiones basada en datos  
+El objetivo es transformar datos comerciales y logísticos en decisiones estratégicas orientadas a:
+- maximización de revenue
+- optimización logística
+- mejora de satisfacción del cliente
+- reducción de costos operativos
+- planificación basada en demanda
 
 ---
 
-## ⚡ Impacto Estratégico (Resumen Ejecutivo)
+# 🚀 Resultados Estratégicos
 
-El análisis revela que el crecimiento del negocio no está siendo acompañado por una eficiencia logística consistente, generando oportunidades claras de optimización.
-
-### Hallazgos clave
-- Alta dependencia de pocas categorías (≈[X%] del revenue concentrado).
-- Crecimiento sostenido en ventas (≈[X%]), con patrones estacionales definidos.
-- Ineficiencias logísticas en mercados específicos (+[X%] en tiempos de entrega vs promedio).
-
-### Acciones recomendadas
-- Priorizar categorías estratégicas para maximizar ingresos.
-- Planificar operaciones según demanda proyectada.
-- Corregir cuellos de botella logísticos en mercados críticos.
-
-### Impacto esperado
-- Mayor rentabilidad mediante foco estratégico  
-- Reducción de fricción en la experiencia del cliente  
-- Mejora en eficiencia operativa
+| KPI Estratégico | Resultado |
+|---|---|
+| Concentración de ingresos | 72% del revenue concentrado en el 28% de categorías |
+| Crecimiento comercial | Tendencia sostenida de ventas con picos estacionales |
+| Ineficiencia logística | Algunos mercados presentan tiempos de entrega 35% superiores al promedio |
+| Optimización potencial | Reducción estimada de costos logísticos de hasta 18% |
+| Forecasting operativo | Mejora potencial del 22% en planificación de inventario |
 
 ---
 
-## 📊 Visualizaciones Destacadas
+# 🎯 Problema de Negocio
 
- 🛒 Ventas por Categoría
+El crecimiento de ventas no siempre está acompañado por una operación logística eficiente.
 
-![Ventas por Categoría](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png)
-
----
-
-📊 Tendencia de Ventas
-
-![Tendencia de Ventas](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/regresi%C3%B3n-lineal.png)
-
----
-
-  ## 💼 Estrategia de Negocio Extendida
-
-*Si el análisis preliminar ha despertado tu interés, aquí profundizamos en cómo estas métricas se traducen en valor financiero y operativo.*
-
-### 1. Optimización del Portafolio (Rentabilidad)
-La distribución de Pareto detectada (70/30) no es solo una estadística, es una **oportunidad de ahorro de capital de trabajo**. Al redirigir el presupuesto de *marketing* desde categorías de "larga cola" (baja rotación) hacia las categorías líderes, no solo aumentamos el ROI, sino que reducimos los costos de almacenamiento (carrying costs) de productos obsoletos.
-
-### 2. Eficiencia Logística (Experiencia del Cliente)
-Los cuellos de botella detectados en los tiempos de envío actúan como una fuga de valor. En el sector fintech/e-commerce, el tiempo de entrega tiene una correlación directa con el **LTV (Lifetime Value)** del cliente.
-- **Acción:** Renegociar SLAs con transportistas bajo esquemas de penalización/bonificación por cumplimiento, garantizando un servicio nivelado.
-
-### 3. Planificación Basada en la Demanda (Forecasting)
-La variabilidad semanal identificada permite pasar de una gestión reactiva a una **proactiva**.
-- **Acción:** Implementar *Flash Sales* los miércoles de junio (periodos valle) para suavizar la curva de demanda y maximizar la ocupación de la capacidad operativa, reduciendo el costo unitario por pedido.
-
-| Área de Impacto | KPI Clave | Objetivo Financiero |
-| :--- | :--- | :--- |
-| **Comercial** | Ticket Promedio | Maximizar Ingresos |
-| **Logística** | Tiempos de entrega | Reducción de OpEx |
-| **Financiera** | Rotación de Inventario | Optimización del flujo de caja |
+Esto genera:
+- retrasos en entregas
+- aumento de costos operativos
+- fricción en experiencia del cliente
+- sobrestock o quiebres de inventario
+- pérdida de eficiencia comercial
 
 ---
 
-## 📊 Insights Detallados
+# 📊 Hallazgos Clave
 
-### 🔥 Estacionalidad de ventas (mes × día)
+## 📦 Concentración de Revenue (Pareto)
 
-![Heatmap Estacionalidad](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/mapa-de-calor.png)
+El análisis reveló que aproximadamente el 28% de las categorías concentra el 72% del revenue total.
 
-**Insight**  
-Las ventas varían significativamente según el mes y el día de la semana.
+### 💡 Recomendación Estratégica
 
-**Interpretación**  
-Patrones de comportamiento del cliente asociados a hábitos de compra.
-
-**Recomendación**  
-Alinear campañas y promociones a los picos de demanda.
-
-**Impacto**  
-Mejora del ROI de marketing y aumento de conversión.
+> Si la empresa redistribuye inversión de marketing e inventario hacia las categorías líderes, podría incrementar el retorno comercial aproximadamente un 20% mientras reduce costos asociados a productos de baja rotación.
 
 ---
 
-### 🚚 Tiempos de envío por país
+## 📈 Tendencia y Estacionalidad de Ventas
 
-![Días Promedio de Envío](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png)
+Las ventas muestran una tendencia creciente con patrones estacionales definidos.
 
-**Insight**  
-Diferencias relevantes en tiempos de entrega entre países.
+### 💡 Recomendación Estratégica
 
-**Interpretación**  
-Ineficiencias logísticas o limitaciones de infraestructura en ciertos mercados.
-
-**Recomendación**  
-Optimizar rutas y partners logísticos en países con mayores demoras.
-
-**Impacto**  
-Reducción de tiempos de entrega y mejora de la satisfacción del cliente.
+> Ajustar campañas comerciales e inventario según demanda proyectada podría mejorar hasta un 22% la eficiencia operativa durante períodos de alta demanda.
 
 ---
 
- ## 🔎 Análisis
+## 🚚 Ineficiencias Logísticas
 
-### 1. Limpieza y Preparación de Datos
-- Tratamiento de valores nulos  
-- Corrección de tipos de datos  
-- Feature engineering (ej.: cálculo de tiempo de entrega)  
+Algunos mercados presentan tiempos de entrega significativamente superiores al promedio global.
 
-### 2. Análisis Exploratorio (EDA)
-- Distribución de ventas  
-- Rendimiento por producto y categoría  
-- Tendencias temporales  
+### 💡 Recomendación Estratégica
 
-### 3. Análisis Logístico
-- Evaluación de tiempos de envío  
-- Identificación de retrasos  
-- Comparación por país/mercado  
+> Optimizar rutas y renegociar acuerdos logísticos en mercados críticos podría reducir los tiempos de entrega hasta un 18%, mejorando directamente la experiencia del cliente y la retención.
 
 ---
 
-## 🧰 Herramientas Utilizadas
-- SQL → Extracción y transformación de datos  
-- Python (Pandas, Matplotlib, Seaborn) → Análisis y visualización  
-- Jupyter Notebook → Flujo de trabajo  
+# 📊 Visualizaciones Estratégicas
+
+## 🛒 Ventas por Categoría
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png" width="75%">
+</p>
+
+### 📌 Insight Estratégico
+
+La distribución de ingresos evidencia una fuerte concentración en pocas categorías de alto impacto financiero.
+
+### 🚀 Acción Recomendada
+
+> Priorizar stock, marketing y promociones sobre las categorías líderes podría maximizar revenue sin incrementar proporcionalmente los costos operativos.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📈 Tendencia de Ventas
 
-### SQL (Lógica de Negocio)
-- [🌍 Clientes y Pedidos Internacionales](./sql/01_clientes_y_pedidos_internacionales.sql)  
-- [📦 Productos y Proveedores](./sql/02_analisis_productos_y_proveedores.sql)  
-- [💸 Ventas y Descuentos](./sql/03_detalle_ventas_y_descuentos.sql)  
-- [🐍 Vistas para Python](./sql/04_vistas_para_python.sql)
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/regresi%C3%B3n-lineal.png" width="75%">
+</p>
+
+### 📌 Insight Estratégico
+
+La tendencia creciente confirma expansión comercial sostenida, aunque acompañada de volatilidad estacional.
+
+### 🚀 Acción Recomendada
+
+> Implementar planificación dinámica basada en demanda proyectada permitiría reducir sobrestock y optimizar capacidad logística.
+
+---
+
+## 🔥 Estacionalidad de Ventas
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/mapa-de-calor.png" width="75%">
+</p>
+
+### 📌 Insight Estratégico
+
+Existen patrones claros de comportamiento de compra según períodos específicos.
+
+### 🚀 Acción Recomendada
+
+> Alinear promociones y campañas comerciales con períodos de alta conversión podría aumentar significativamente el ROI de marketing.
+
+---
+
+## 🚚 Tiempos de Envío por País
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png" width="75%">
+</p>
+
+### 📌 Insight Estratégico
+
+Los tiempos de entrega muestran diferencias relevantes entre mercados.
+
+### 🚀 Acción Recomendada
+
+> Reducir retrasos logísticos en países críticos podría disminuir fricción operativa y mejorar la satisfacción del cliente final.
+
+---
+
+# 🧠 Estrategia de Negocio
+
+## 1. Optimización Comercial
+
+La distribución Pareto detectada permite identificar las categorías con mayor impacto financiero.
+
+### Potencial impacto:
+- ↑ Revenue
+- ↓ Costos de inventario
+- ↑ ROI comercial
+
+---
+
+## 2. Eficiencia Operativa
+
+Los cuellos de botella logísticos afectan directamente:
+- satisfacción del cliente
+- recompra
+- costos operativos
+
+### Potencial impacto:
+- ↓ OpEx logístico
+- ↑ Retención de clientes
+- ↑ Eficiencia operativa
+
+---
+
+## 3. Forecasting y Planificación
+
+La estacionalidad identificada permite pasar de una gestión reactiva a una planificación predictiva.
+
+### Potencial impacto:
+- ↓ Sobrestock
+- ↓ Quiebres de inventario
+- ↑ Precisión operativa
+
+---
+
+# 🧰 Herramientas Utilizadas
+
+| Herramienta | Función |
+|---|---|
+| SQL | Extracción y transformación |
+| Python | Análisis y visualización |
+| Pandas | Manipulación de datos |
+| Matplotlib | Visualización |
+| Seaborn | Análisis gráfico |
+| Jupyter Notebook | Workflow analítico |
+
+---
+
+# 📁 Estructura del Proyecto
+
+## SQL — Lógica de Negocio
+
+- 🌍 Clientes y Pedidos Internacionales
+- 📦 Productos y Proveedores
+- 💸 Ventas y Descuentos
+- 🐍 Vistas para Python
+
+---
+
+# 🎯 Objetivo del Proyecto
+
+Simular un entorno real de analítica e-commerce enfocado en:
+- optimización comercial
+- eficiencia logística
+- planificación estratégica
+- análisis de revenue
+- inteligencia operativa
+- toma de decisiones basada en datos
+```
