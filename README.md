@@ -61,7 +61,11 @@ El análisis reveló que aproximadamente el 28% de las categorías concentra el 
 
 ### 💡 Recomendación Estratégica
 
-> Si la empresa redistribuye inversión de marketing e inventario hacia las categorías líderes, podría incrementar el retorno comercial aproximadamente un 20% mientras reduce costos asociados a productos de baja rotación.
+Si la empresa redistribuye inversión de marketing e inventario hacia las categorías líderes, podría incrementar el retorno comercial aproximadamente un 20% mientras reduce costos asociados a productos de baja rotación.
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png" width="75%">
+</p>
 
 ---
 
@@ -71,7 +75,7 @@ Las ventas muestran una tendencia creciente con patrones estacionales definidos.
 
 ### 💡 Recomendación Estratégica
 
-> Ajustar campañas comerciales e inventario según demanda proyectada podría mejorar hasta un 22% la eficiencia operativa durante períodos de alta demanda.
+Ajustar campañas comerciales e inventario según demanda proyectada podría mejorar hasta un 22% la eficiencia operativa durante períodos de alta demanda.
 
 ---
 
@@ -81,7 +85,7 @@ Algunos mercados presentan tiempos de entrega significativamente superiores al p
 
 ### 💡 Recomendación Estratégica
 
-> Optimizar rutas y renegociar acuerdos logísticos en mercados críticos podría reducir los tiempos de entrega hasta un 18%, mejorando directamente la experiencia del cliente y la retención.
+Optimizar rutas y renegociar acuerdos logísticos en mercados críticos podría reducir los tiempos de entrega hasta un 18%, mejorando directamente la experiencia del cliente y la retención.
 
 ---
 
@@ -99,7 +103,7 @@ La distribución de ingresos evidencia una fuerte concentración en pocas catego
 
 ### 🚀 Acción Recomendada
 
-> Priorizar stock, marketing y promociones sobre las categorías líderes podría maximizar ingresos sin incrementar proporcionalmente los costos operativos.
+Priorizar stock, marketing y promociones sobre las categorías líderes podría maximizar ingresos sin incrementar proporcionalmente los costos operativos.
 
 ---
 
@@ -115,7 +119,7 @@ La tendencia creciente confirma expansión comercial sostenida, aunque acompaña
 
 ### 🚀 Acción Recomendada
 
-> Implementar planificación dinámica basada en demanda proyectada permitiría reducir sobrestock y optimizar capacidad logística.
+Implementar planificación dinámica basada en demanda proyectada permitiría reducir sobrestock y optimizar capacidad logística.
 
 ---
 
@@ -131,7 +135,7 @@ Existen patrones claros de comportamiento de compra según períodos específico
 
 ### 🚀 Acción Recomendada
 
-> Alinear promociones y campañas comerciales con períodos de alta conversión podría aumentar significativamente el ROI de marketing.
+Alinear promociones y campañas comerciales con períodos de alta conversión podría aumentar significativamente el ROI de marketing.
 
 ---
 
@@ -147,7 +151,7 @@ Los tiempos de entrega muestran diferencias relevantes entre mercados.
 
 ### 🚀 Acción Recomendada
 
-> Reducir retrasos logísticos en países críticos podría disminuir fricción operativa y mejorar la satisfacción del cliente final.
+Reducir retrasos logísticos en países críticos podría disminuir fricción operativa y mejorar la satisfacción del cliente final.
 
 ---
 
