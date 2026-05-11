@@ -13,20 +13,6 @@ El objetivo es transformar datos comerciales y logísticos en decisiones estrat�
 - reducción de costos operativos
 - planificación basada en demanda
 
----
-
-# 🚀 Resultados Estratégicos
-
-| KPI Estratégico | Resultado |
-|---|---|
-| Concentración de ingresos | 72% de los ingresos concentrados en el 28% de las categorías |
-| Crecimiento comercial | Tendencia sostenida de ventas con picos estacionales |
-| Ineficiencia logística | Algunos mercados presentan tiempos de entrega 35% superiores al promedio |
-| Optimización potencial | Reducción estimada de costos logísticos de hasta 18% |
-| Forecasting operativo | Mejora potencial del 22% en planificación de inventario |
-
----
-
 # 🎯 Problema de Negocio
 
 El crecimiento de ventas no siempre está acompañado por una operación logística eficiente.
@@ -50,6 +36,18 @@ La distribución Pareto detectada permite identificar las categorías con mayor 
 - ↑ Ingresos
 - ↓ Costos de inventario
 - ↑ ROI comercial
+
+---
+
+# 🚀 Resultados Estratégicos
+
+| KPI Estratégico | Resultado |
+|---|---|
+| Concentración de ingresos | 72% de los ingresos concentrados en el 28% de las categorías |
+| Crecimiento comercial | Tendencia sostenida de ventas con picos estacionales |
+| Ineficiencia logística | Algunos mercados presentan tiempos de entrega 35% superiores al promedio |
+| Optimización potencial | Reducción estimada de costos logísticos de hasta 18% |
+| Forecasting operativo | Mejora potencial del 22% en planificación de inventario |
 
 ---
 
