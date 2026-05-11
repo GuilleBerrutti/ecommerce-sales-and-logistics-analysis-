@@ -87,6 +87,10 @@ Algunos mercados presentan tiempos de entrega significativamente superiores al p
 
 Optimizar rutas y renegociar acuerdos logísticos en mercados críticos podría reducir los tiempos de entrega hasta un 18%, mejorando directamente la experiencia del cliente y la retención.
 
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png" width="75%">
+</p>
+
 ---
 
 # 📊 Visualizaciones Estratégicas
