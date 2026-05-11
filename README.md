@@ -55,8 +55,6 @@ La distribución Pareto detectada permite identificar las categorías con mayor 
 
 # 📊 Hallazgos Clave
 
-# 📊 Hallazgos Clave
-
 <details>
 <summary>📦 Concentración de Ingresos (Pareto)</summary>
 
