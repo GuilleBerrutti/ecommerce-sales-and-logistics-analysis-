@@ -77,6 +77,13 @@ Las ventas muestran una tendencia creciente con patrones estacionales definidos.
 
 Ajustar campañas comerciales e inventario según demanda proyectada podría mejorar hasta un 22% la eficiencia operativa durante períodos de alta demanda.
 
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/regresi%C3%B3n-lineal.png" width="75%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/mapa-de-calor.png" width="75%">
+</p>
 ---
 
 ## 🚚 Ineficiencias Logísticas
