@@ -1,7 +1,5 @@
 # 🛒 E-commerce Sales & Logistics Intelligence
 
-# 🛒 Inteligencia de Ventas y Logística en E-commerce
-
 ---
 
 # 📌 Resumen Ejecutivo
