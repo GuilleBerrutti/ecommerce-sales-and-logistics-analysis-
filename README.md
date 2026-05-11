@@ -55,7 +55,12 @@ La distribución Pareto detectada permite identificar las categorías con mayor 
 
 # 📊 Hallazgos Clave
 
-## 📦 Concentración de Ingresos (Pareto)
+# 📊 Hallazgos Clave
+
+<details>
+<summary>📦 Concentración de Ingresos (Pareto)</summary>
+
+<br>
 
 El análisis reveló que aproximadamente el 28% de las categorías concentra el 72% de los ingresos totales.
 
@@ -67,9 +72,14 @@ Si la empresa redistribuye inversión de marketing e inventario hacia las catego
   <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png" width="75%">
 </p>
 
+</details>
+
 ---
 
-## 📈 Tendencia y Estacionalidad de Ventas
+<details>
+<summary>📈 Tendencia y Estacionalidad de Ventas</summary>
+
+<br>
 
 Las ventas muestran una tendencia creciente con patrones estacionales definidos.
 
@@ -84,9 +94,15 @@ Ajustar campañas comerciales e inventario según demanda proyectada podría mej
 <p align="center">
   <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/mapa-de-calor.png" width="75%">
 </p>
+
+</details>
+
 ---
 
-## 🚚 Ineficiencias Logísticas
+<details>
+<summary>🚚 Ineficiencias Logísticas</summary>
+
+<br>
 
 Algunos mercados presentan tiempos de entrega significativamente superiores al promedio global.
 
@@ -97,6 +113,8 @@ Optimizar rutas y renegociar acuerdos logísticos en mercados críticos podría 
 <p align="center">
   <img src="https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png" width="75%">
 </p>
+
+</details>
 
 ---
 
